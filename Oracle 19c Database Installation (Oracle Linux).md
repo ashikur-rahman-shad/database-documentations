@@ -43,11 +43,11 @@ firewall-cmd --permanent --add-port=1521/tcp
 firewall-cmd --reload
 ```
 
+#### Some quick commands
 Check Container:
 ```Oracle
 SHOW CON_NAME;
 ```
-
 To Switch to PDB Session:
 ```SQL Oracle
 SELECT name, open_mode FROM v$pdbs;
